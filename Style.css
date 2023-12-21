@@ -1,0 +1,236 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #016A70;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Home {
+    float: right;
+}
+
+.Home a {
+    color: black;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #016A70 ;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #016A70;
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    border: 10px solid floralwhite;
+    object-fit: cover; /
+}
+
+.nama {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 0 auto 10px;
+}
+.image1,
+.image2,
+.image3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #016A70;
+}
+
+.image1 img,
+.image2 img,
+.image3 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    border: 10px solid floralwhite;
+    object-fit: cover; 
+}
+/* ... Kode CSS sebelumnya ... */
+
+.image1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #016A70;
+    position: relative;
+}
+
+.image1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    border: 10px solid floralwhite;
+    object-fit: cover; 
+}
+
+.text-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nama {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+/* ... Kode CSS setelahnya ... */
+
+    
+.nama {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 0 auto 10px; 
+}
+/* ... Kode CSS sebelumnya ... */
+
+.image2 .content,
+.image3 .content {
+    text-align: center;
+}
+/* Tambahkan style berikut */
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    border: 10px solid floralwhite;
+    object-fit: cover;
+    margin: auto; /* Posisikan foto di tengah */
+}
+
+
+.slide {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slide h2 {
+    text-align: center; /* Menambahkan properti ini untuk menengahkan judul "About Me" */
+}
+
+.slide p {
+    white-space: pre-line;
+}
+
+h2 {
+    font-family: 'comic sana ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: center;
+    background-color: #016A70;
+}
+.contact-icons img {
+    width: 50px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    height: auto;
+}
+
+/* Tambahkan style berikut */
+.contact-icons a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Posisikan logo di tengah dan beri margin */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 0 20px; /* Sesuaikan jarak antar logo sesuai kebutuhan */
+}
